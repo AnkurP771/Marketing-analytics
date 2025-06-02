@@ -1,10 +1,10 @@
-# 🧠 Marketing Analytics using Python, Sentiment Analysis, SQL, and Power BI
+# Marketing Analytics using Python, Sentiment Analysis, SQL, and Power BI
 
 This project performs sentiment analysis on customer reviews stored in a SQL Server database using the VADER (Valence Aware Dictionary for sEntiment Reasoning) sentiment analysis tool in Python. The results are classified into categories and buckets and finally saved as a CSV file for further use and visualization.
 
 ---
 
-## 📌 Features
+## Features
 
 - Extracts customer review text from SQL Server database
 - Applies VADER sentiment analysis on each review
@@ -17,7 +17,7 @@ This project performs sentiment analysis on customer reviews stored in a SQL Ser
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 | Tool/Language | Purpose |
 |---------------|---------|
@@ -29,7 +29,7 @@ This project performs sentiment analysis on customer reviews stored in a SQL Ser
 | Power BI | For making the dashboard |
 ---
 
-## 📂 Project Workflow
+## Project Workflow
 
 1. **Connect to SQL Server:**
    - Uses `pyodbc` to connect to the database and query customer reviews.
@@ -58,7 +58,7 @@ This project performs sentiment analysis on customer reviews stored in a SQL Ser
 
 ---
 
-## 📊 Example Output
+## Example Output
 
 | Review | Sentiment Score | Sentiment Category | Sentiment Bucket |
 |--------|------------------|---------------------|------------------|
