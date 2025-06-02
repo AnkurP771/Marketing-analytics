@@ -1,4 +1,4 @@
-# 🧠 Customer Review Sentiment Analysis using VADER and SQL Server
+# 🧠 Customer Review Sentiment Analysis using Sentiment Analysis and SQL Server
 
 This project performs sentiment analysis on customer reviews stored in a SQL Server database using the VADER (Valence Aware Dictionary for sEntiment Reasoning) sentiment analysis tool in Python. The results are classified into categories and buckets and finally saved as a CSV file for further use and visualization.
 
@@ -26,7 +26,7 @@ This project performs sentiment analysis on customer reviews stored in a SQL Ser
 | pyodbc | SQL Server connectivity |
 | SQL Server | Database storage of raw customer reviews |
 | CSV | Final result output format |
-
+| Power BI | For making the dashboard |
 ---
 
 ## 📂 Project Workflow
@@ -52,6 +52,9 @@ This project performs sentiment analysis on customer reviews stored in a SQL Ser
 
 4. **Export Results to CSV:**
    - The full DataFrame including review, score, category, and bucket is saved to `Sentiment_Results.csv`.
+     
+5. **Export all tables to Power BI:**
+   - All the tables are exported to Power BI and used DAX funtions to create an interactive dashboard.
 
 ---
 
@@ -65,12 +68,7 @@ This project performs sentiment analysis on customer reviews stored in a SQL Ser
 
 ---
 
-## 🚀 How to Run
 
-1. **Clone this repository:**
 
-```bash
-git clone https://github.com/yourusername/sentiment-vader-sql.git
-cd sentiment-vader-sql
 
 
