@@ -1,4 +1,4 @@
--- 1. Join dim_customers with dim_geography to enrich customer data with geographic information
+-- 1. Join dbo_customers with dbo_geography to enrich customer data with geographic information
 SELECT 
     c.CustomerID,
     c.CustomerName,
