@@ -32,7 +32,7 @@ analyzer = SentimentIntensityAnalyzer()
 def get_sentiment_score(text):
     """
     Given a piece of review text, I calculate its sentiment score using VADER.
-    I return the 'compound' score which tells me how positive or negative the text is overall.
+    I am returning the 'compound' score which tells me how positive or negative the text is overall.
     """
     return analyzer.polarity_scores(text)['compound']
 
